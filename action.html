@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 
@@ -7,7 +9,7 @@
     <!-- <base href="/"> -->
 
     <title>
-        TEYKA.SKIN - Действие
+        TEYKA.SKIN
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -31,10 +33,10 @@
                         #действие
                     </div>
                     <div class="d-flex justify-content-center align-items-center">
-                        <div class="header__feedback d-none d-sm-block">
-                            <button class="header__feedback-btn" type="button">Связаться с нами</button>
+                        <div class="header__feedback d-none d-lg-block">
+                            <button class="header__feedback-btn modal" type="button">Связаться с нами</button>
                         </div>
-                        <div class="header__burger d-lg-none ms-5">
+                        <div class="header__burger d-lg-none ms-5" id="burger">
                             <div class="header__burger-line-1"></div>
                             <div class="header__burger-line-2"></div>
                             <div class="header__burger-line-3"></div>
@@ -49,17 +51,100 @@
                 <div class="header__hashtag-mobile d-lg-none d-block">
                     #действие
                 </div>
+                <div class="col-12">
+                    <div class="header__mobile ">
+                        <ul class="header__mobile-list">
+                            <a href="index.html" class="header__mobile-list-link">
+                                <li class="header__mobile-list-item">
+                                    Продукт
+                                </li>
+                            </a>
+                            <a href="action.html" class="header__mobile-list-link">
+                                <li class="header__mobile-list-item">
+                                    Действие
+                                </li>
+                            </a>
+                            <a href="reviews.html" class="header__mobile-list-link">
+                                <li class="header__mobile-list-item">
+                                    Отзывы
+                                </li>
+                            </a>
+                            <a href="articles.html" class="header__mobile-list-link">
+                                <li class="header__mobile-list-item">
+                                    Статьи
+                                </li>
+                            </a>
+                            <a href="sponges.html" class="header__mobile-list-link">
+                                <li class="header__mobile-list-item">
+                                    Кисти и спонжи
+                                </li>
+                            </a>
+                            <a href="partners.html" class="header__mobile-list-link">
+                                <li class="header__mobile-list-item">
+                                    Партнерам
+                                </li>
+                            </a>
+                            <a href="wholesaler.html" class="header__mobile-list-link">
+                                <li class="header__mobile-list-item">
+                                    Оптовикам
+                                </li>
+                            </a>
+                            <a href="about.html" class="header__mobile-list-link">
+                                <li class="header__mobile-list-item">
+                                    О бренде
+                                </li>
+                            </a>
+                            <a class="header__mobile-list-link modal">
+                                <li class="header__mobile-list-item">
+                                    Связаться с нами
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
 
-    <main>
-
-    </main>
+<main>
+    <div class="popup">
+    <div class="popup__content">
+        <div class="popup__close"></div>
+        <div class="popup__left">
+            <img src="images/dist/teyka-popup.jpg" alt="teyka-popup" class="popup__img">
+        </div>
+        <div class="popup__right">
+            <div class="popup__right-top">
+                <h2 class="popup__right-top-title">
+                    Связаться с нами
+                </h2>
+                <a href="tel:_+79680575763" class="popup__right-top-button button">
+                    Позвонить нам +7 (968) 057-57-63
+                </a>
+                <a href="#!" class="popup__right-top-button popup__right-top-button_lowCase button">
+                    <span class="arrow">Написать в Whats'app</span>
+                </a>
+                <a href="#!" class="popup__right-top-button popup__right-top-button_lowCase button">
+                    <span class="arrow">Написать в Telegram</span>
+                </a>
+            </div>
+            <div class="popup__right-bottom">
+                <h2 class="popup__right-bottom-title">
+                    Оставить заявку
+                </h2>
+                <form action="" class="popup__right-form">
+                    <input type="text" class="popup__right-form-input" placeholder="Имя" required>
+                    <input type="text" class="popup__right-form-input" placeholder="Номер телефона" required>
+                    <button class="popup__right-form-button darkButton" type="submit">Связаться со мной</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
     <section class="navigation">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-9 d-flex p-0">
+            <div class="col-12 col-lg-9 d-flex">
                 <div class="col-6 pe-1">
                     <img class="navigation__image" src="images/dist/teyka-action-1.jpg" alt="teyka-action-1">
                 </div>
@@ -81,32 +166,32 @@
                             </a>
                         </li>
                         <li class="navigation__menu-list-item">
-                            <a href="#!" class="navigation__menu-list-link">
+                            <a href="reviews.html" class="navigation__menu-list-link">
                                 Отзывы
                             </a>
                         </li>
                         <li class="navigation__menu-list-item">
-                            <a href="#!" class="navigation__menu-list-link">
+                            <a href="articles.html" class="navigation__menu-list-link">
                                 Статьи
                             </a>
                         </li>
                         <li class="navigation__menu-list-item">
-                            <a href="#!" class="navigation__menu-list-link">
+                            <a href="sponges.html" class="navigation__menu-list-link">
                                 Кисти и спонжи
                             </a>
                         </li>
                         <li class="navigation__menu-list-item">
-                            <a href="#!" class="navigation__menu-list-link">
+                            <a href="partners.html" class="navigation__menu-list-link">
                                 Партнерам
                             </a>
                         </li>
                         <li class="navigation__menu-list-item">
-                            <a href="#!" class="navigation__menu-list-link">
+                            <a href="wholesaler.html" class="navigation__menu-list-link">
                                 Оптовикам
                             </a>
                         </li>
                         <li class="navigation__menu-list-item">
-                            <a href="#!" class="navigation__menu-list-link">
+                            <a href="about.html" class="navigation__menu-list-link">
                                 О бренде
                             </a>
                         </li>
@@ -553,18 +638,18 @@
                     </a>
                 </div>
                 <div class="footer__hashtag">
-                    #продукт2022
+                    #действие
                 </div>
                 <div class="d-flex justify-content-center align-items-center d-sm-block d-none">
                     <div class="footer__feedback">
-                        <a href="#!" class="footer__feedback-btn">Связаться с нами</a>
+                        <button class="footer__feedback-btn modal" type="button">Связаться с нами</button>
                     </div>
                 </div>
             </div>
             <div class="col-12 my-3 d-sm-none d-block">
                 <div class="d-flex justify-content-center align-items-center">
                     <div class="footer__feedback">
-                        <a href="#!" class="footer__feedback-btn">Связаться с нами</a>
+                        <button class="footer__feedback-btn modal" type="button">Связаться с нами</button>
                     </div>
                 </div>
             </div>
@@ -572,11 +657,13 @@
     </div>
 </footer>
 
-<!-- <script src="js/app.min.js"></script> -->
+<script src="js/app.min.js"></script>
 
 </body>
 
 </html>
+</main>
+
 </body>
 
 </html>
